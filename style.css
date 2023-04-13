@@ -40,3 +40,10 @@ font-family: "mr-eaves-xl-modern", sans-serif;
 font-weight: 400;
 font-style: normal;
 */
+
+/* Den første farve er den farver sektionens top har og den sidste er sektionens bund */
+XXX {
+  background-image: linear-gradient(to bottom, #E2F0FF, #A5E1A0);
+}
+
+
