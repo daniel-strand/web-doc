@@ -14,7 +14,7 @@ body {
   justify-content: center;
 }
 
-main {
+.sektion {
   overflow-x: hidden;
   display: flex;
   position: sticky;

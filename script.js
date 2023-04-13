@@ -13,7 +13,7 @@
 
     function setStickyContainersSize(){
         document.querySelectorAll('.horisontal').forEach(function(container){
-            const stikyContainerHeight = container.querySelector('main').scrollWidth;
+            const stikyContainerHeight = container.querySelector('.sektion').scrollWidth;
             container.setAttribute('style', 'height: ' + stikyContainerHeight + 'px');
         });
     }
@@ -38,7 +38,7 @@
         let g_canScrollHorizontally = isPlaceHolderBelowTop && isPlaceHolderBelowBottom;
 
         if(g_canScrollHorizontally){
-            containerInViewPort.querySelector('main').scrollLeft += evt.deltaY;
+            containerInViewPort.querySelector('.sektion').scrollLeft += evt.deltaY;
         }
     }
 })();
