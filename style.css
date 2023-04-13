@@ -40,3 +40,22 @@ font-family: "mr-eaves-xl-modern", sans-serif;
 font-weight: 400;
 font-style: normal;
 */
+
+
+/* Farve på sektioner */
+#blaa{
+  background-color: #E2F0FF;
+}
+#blaa-groen{
+  background-image: linear-gradient(to bottom, #E2F0FF, #A5E1A0);
+}
+#groen{
+  background-color: #A5E1A0;
+}
+#groen-brun{
+  background-image: linear-gradient(to bottom, #a5e1a0,#9D8D4C);
+}
+#brun{
+  background-color: #9D8D4C;
+}
+
