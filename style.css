@@ -55,11 +55,12 @@ font-style: normal;
 }
 #brun{
   background-color: #9D8D4C;
-  background-image: url("img/Rødder.svg"), url("img/Rødder.svg");
-  background-repeat: no-repeat, repeat;
-  background-size: 1000px 1000px;
 }
 
 
 /* Infoside */
+
+#brun img{
+  margin-top: -300px;
+}
 
