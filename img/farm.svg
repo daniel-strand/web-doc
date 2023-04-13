@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 884 798">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bf9f7f;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-8 {
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 10px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-6 {
+        stroke: #3d3638;
+      }
+
+      .cls-2 {
+        fill: #939598;
+      }
+
+      .cls-3 {
+        fill: #d14a57;
+      }
+
+      .cls-4 {
+        stroke: #b02026;
+        stroke-width: 5px;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill: none;
+      }
+
+      .cls-5, .cls-7 {
+        stroke: #231f20;
+      }
+
+      .cls-7 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8 {
+        stroke: #bf9f7f;
+        stroke-width: 15px;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-3" points="60.5 793 60.5 390 146.07 173.39 442.22 20.76 738.22 172.76 824.5 390 824.5 793 60.5 793"/>
+  <line class="cls-4" x1="104" y1="792.5" x2="101" y2="291.5"/>
+  <line class="cls-4" x1="145" y1="792.5" x2="145" y2="185.5"/>
+  <line class="cls-4" x1="185" y1="792.5" x2="185" y2="153.5"/>
+  <line class="cls-4" x1="230" y1="792.5" x2="230" y2="130.5"/>
+  <line class="cls-4" x1="273" y1="792.5" x2="273" y2="108.5"/>
+  <line class="cls-4" x1="316" y1="792.5" x2="316" y2="85.5"/>
+  <line class="cls-4" x1="358" y1="792.5" x2="358" y2="64.5"/>
+  <line class="cls-4" x1="399" y1="792.5" x2="399" y2="43.5"/>
+  <line class="cls-4" x1="442" y1="792.5" x2="442" y2="20.5"/>
+  <line class="cls-4" x1="779" y1="793.5" x2="782" y2="292.5"/>
+  <line class="cls-4" x1="738" y1="793.5" x2="738" y2="186.5"/>
+  <line class="cls-4" x1="698" y1="793.5" x2="698" y2="154.5"/>
+  <line class="cls-4" x1="653" y1="793.5" x2="653" y2="131.5"/>
+  <line class="cls-4" x1="610" y1="793.5" x2="610" y2="109.5"/>
+  <line class="cls-4" x1="567" y1="793.5" x2="567" y2="86.5"/>
+  <line class="cls-4" x1="525" y1="793.5" x2="525" y2="65.5"/>
+  <line class="cls-4" x1="484" y1="793.5" x2="484" y2="44.5"/>
+  <line class="cls-4" x1="442" y1="793.5" x2="442" y2="21.5"/>
+  <line class="cls-7" x1="60.5" y1="793" x2="824.5" y2="793"/>
+  <line class="cls-6" x1="738.22" y1="173.26" x2="864.5" y2="492"/>
+  <line class="cls-5" x1="146.5" y1="173" x2="442.5" y2="21"/>
+  <polyline class="cls-6" points="19.79 492.13 146.07 173.39 442.22 20.76 738.22 172.76 824.5 390 824.5 793 824.5 390"/>
+  <rect class="cls-2" x="261.5" y="479" width="362" height="314"/>
+  <line class="cls-6" x1="442.5" y1="479" x2="442.5" y2="793"/>
+  <line class="cls-6" x1="261.5" y1="479" x2="442.5" y2="793"/>
+  <line class="cls-6" x1="442.5" y1="479" x2="261.5" y2="793"/>
+  <line class="cls-6" x1="623.5" y1="479" x2="442.5" y2="793"/>
+  <line class="cls-6" x1="442.5" y1="479" x2="623.5" y2="793"/>
+  <g>
+    <rect class="cls-2" x="270.5" y="209" width="92" height="92"/>
+    <line class="cls-6" x1="316.5" y1="209" x2="316.5" y2="301"/>
+    <line class="cls-6" x1="270.5" y1="255" x2="362.5" y2="255"/>
+  </g>
+  <g>
+    <rect class="cls-2" x="522.5" y="209" width="92" height="92"/>
+    <line class="cls-6" x1="568.5" y1="209" x2="568.5" y2="301"/>
+    <line class="cls-6" x1="522.5" y1="255" x2="614.5" y2="255"/>
+  </g>
+  <line class="cls-6" x1="60.5" y1="389" x2="824.5" y2="390"/>
+  <rect class="cls-1" x="60.5" y="670" width="201" height="123"/>
+  <rect class="cls-1" x="623.5" y="670" width="201" height="123"/>
+  <g>
+    <line class="cls-8" x1="7.5" y1="492" x2="139.59" y2="164.08"/>
+    <line class="cls-8" x1="442.5" y1="7.5" x2="140.58" y2="162.11"/>
+    <line class="cls-8" x1="876.5" y1="489.05" x2="747.04" y2="164.17"/>
+    <line class="cls-8" x1="442.5" y1="7.5" x2="746.05" y2="162.2"/>
+  </g>
+</svg>
