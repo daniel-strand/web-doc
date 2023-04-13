@@ -1,0 +1,32 @@
+/*Kode til scrolling*/
+html,
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+
+
+.vertikal{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  overflow-x: hidden;
+  display: flex;
+  position: sticky;
+  top:0;
+}
+
+section {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Kode til scrolling*/
+
