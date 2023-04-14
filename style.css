@@ -121,3 +121,17 @@ p {
 #sbhl-tb {
   max-width: 865px;
 }
+
+#sbhl-halmballer {
+  position: relative;
+  width: 60%;
+  margin-left: 115%;
+  margin-top: -55%;
+}
+
+#sbhl-gris {
+  position: relative;
+  width: 50%;
+  margin-left: 115%;
+  margin-top: -10%;
+}
