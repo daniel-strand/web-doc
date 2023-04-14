@@ -5,8 +5,7 @@ body {
   scroll-behavior: smooth;
 }
 
-
-.vertikal{
+.vertikal {
   height: 100vh;
   display: flex;
 }
@@ -15,7 +14,7 @@ body {
   overflow-x: hidden;
   display: flex;
   position: sticky;
-  top:0;
+  top: 0;
 }
 
 section {
@@ -28,49 +27,44 @@ section {
 
 /* Fonts */
 
-
-h2{
-font-family: "cc-regeneration-variable", sans-serif;
-font-weight: 400;
-text-transform: uppercase;
+h2 {
+  font-family: "cc-regeneration-variable", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
-p{
+p {
   font-family: "mr-eaves-xl-modern", sans-serif;
   font-weight: 400;
   font-size: 15pt;
 }
 
-
 /* Farve på sektioner */
-#blaa{
-  background-color: #E2F0FF;
+#blaa {
+  background-color: #e2f0ff;
 }
-#blaa-groen{
-  background-image: linear-gradient(to bottom, #E2F0FF, #A5E1A0);
+#blaa-groen {
+  background-image: linear-gradient(to bottom, #e2f0ff, #a5e1a0);
 }
-#groen{
-  background-color: #A5E1A0;
+#groen {
+  background-color: #a5e1a0;
 }
-#groen-brun{
-  background-image: linear-gradient(to bottom, #a5e1a0,#9D8D4C);
+#groen-brun {
+  background-image: linear-gradient(to bottom, #a5e1a0, #9d8d4c);
 }
-#brun{
-  background-color: #9D8D4C;
+#brun {
+  background-color: #9d8d4c;
 }
-
 
 /* Infoside */
 
-#brun img{
+#brun img {
   margin-top: -300px;
 }
 
-
-
 /* Boks med text */
-.overskrift-float{
-  background-color: #F4ECC2;
+.overskrift-float {
+  background-color: #f4ecc2;
   border-radius: 15px;
   margin-left: 60px;
   margin-right: 60px;
@@ -88,12 +82,11 @@ p{
   position: relative;
 }
 
-.overskrift-float h2{
+.overskrift-float h2 {
   padding-top: 20px;
 }
 
-
-.text-box{
+.text-box {
   background-color: #f8f8f8;
   border-radius: 30px;
   padding: 20px;
@@ -104,12 +97,27 @@ p{
   max-width: 650px;
 }
 
-
-.text-box p{
+.text-box p {
   margin-bottom: 40px;
   line-height: 25px;
 }
 
-.space-top{
+.space-top {
   margin-top: 50px;
+}
+
+/*SÅDAN BLEV HAN LANDMAND (SBHL)*/
+#sbhl-s {
+  justify-content: left;
+
+  margin-left: 50px;
+}
+
+#sbhl-of {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+#sbhl-tb {
+  max-width: 865px;
 }
