@@ -47,3 +47,59 @@ XXX {
 }
 
 
+/* ----DRØMMEN OM AT VÆRE LANDMAND */
+#drømmen{background-color: #E2F0FF;}
+
+#drømmen #sky-top-left{ 
+height: 40vw;
+width: 40vw;
+position:absolute;
+top:65vw;
+animation-name: slide-left-to-right;
+animation-duration: 180s;
+animation-iteration-count: infinite;
+}
+
+
+#sky-top-right{
+height: 30vw;
+width: 30vw;
+position:absolute;
+top:85vw;
+animation-name: slide-right-to-left;
+animation-duration: 185s;
+animation-iteration-count: infinite;
+
+}
+
+
+#sky-bottom-left{
+height: 30vw;
+width: 30vw;
+position:absolute;
+top:100vw;
+animation-name: slide-left-to-right;
+animation-duration: 185s;
+animation-iteration-count: infinite;
+}
+
+#sky-bottom-right{
+height: 40vw;
+width: 40vw;
+position:absolute;
+top:112vw;
+animation-name: slide-right-to-left;
+animation-duration: 180s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes slide-left-to-right {
+from {left:-5%;}
+to  {left:100%;}
+}
+
+@keyframes slide-right-to-left{
+  from {right:-5%;}
+  to  {right:100%;}
+}
