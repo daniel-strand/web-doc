@@ -63,6 +63,8 @@ p {
 }
 
 /* Tekst boks template */
+
+
 .overskrift-float {
   background-color: #f4ecc2;
   border-radius: 15px;
@@ -158,4 +160,19 @@ p {
 
 #oss-tb {
   max-width: 965px;
+}
+
+
+
+
+/* Fakta om bæredygtig landbrug */
+#vindmølle-left{
+  width: 40%;
+}
+#vindmølle-right{
+  width: 48%;
+}
+
+#vindmøller{
+  margin-left: 400px;
 }
