@@ -47,59 +47,124 @@ XXX {
 }
 
 
-/* ----DRØMMEN OM AT VÆRE LANDMAND */
+/* -- DRØMMEN OM AT VÆRE LANDMAND---START------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 #drømmen{background-color: #E2F0FF;}
 
+/*-- SKYER -- START ---------------------------------------------------------------*/
+
+/* Hvad F sker der for position top */
 #drømmen #sky-top-left{ 
-height: 40vw;
-width: 40vw;
-position:absolute;
-top:65vw;
-animation-name: slide-left-to-right;
-animation-duration: 180s;
-animation-iteration-count: infinite;
+  height: 40vh;
+  width: 40vw;
+  position:absolute;
+  top:100vh;
+  animation-name: slide-left-to-right;
+  animation-duration: 180s;
+  animation-iteration-count: infinite;
+}
+
+#drømmen #sky-top-right{
+  height: 30vh;
+  width: 30vw;
+  position:absolute;
+  top:110vh;
+  animation-name: slide-right-to-left;
+  animation-duration: 185s;
+  animation-iteration-count: infinite;
+}
+
+#drømmen #sky-bottom-left{
+  height: 30vh;
+  width: 30vw;
+  position:absolute;
+  top:150vh;
+  animation-name: slide-left-to-right;
+  animation-duration: 185s;
+  animation-iteration-count: infinite;
 }
 
 
-#sky-top-right{
-height: 30vw;
-width: 30vw;
-position:absolute;
-top:85vw;
-animation-name: slide-right-to-left;
-animation-duration: 185s;
-animation-iteration-count: infinite;
-
+#drømmen #sky-bottom-right{
+  height: 40vh;
+  width: 40vw;
+  position:absolute;
+  top:160vh;
+  animation-name: slide-right-to-left;
+  animation-duration: 180s;
+  animation-iteration-count: infinite;
 }
 
-
-#sky-bottom-left{
-height: 30vw;
-width: 30vw;
-position:absolute;
-top:100vw;
-animation-name: slide-left-to-right;
-animation-duration: 185s;
-animation-iteration-count: infinite;
-}
-
-#sky-bottom-right{
-height: 40vw;
-width: 40vw;
-position:absolute;
-top:112vw;
-animation-name: slide-right-to-left;
-animation-duration: 180s;
-animation-iteration-count: infinite;
-
-}
-
+/* Keyframes-SKYER */
 @keyframes slide-left-to-right {
-from {left:-5%;}
+from {left:0%;}
 to  {left:100%;}
 }
 
 @keyframes slide-right-to-left{
-  from {right:-5%;}
+  from {right:0%;}
   to  {right:100%;}
 }
+/*-- SKYER -- SLUT ---------------------------------------------------------------*/
+
+/*-- DRONER -- START ---------------------------------------------------------------*/
+
+#drone-top-left{
+  height: 10vh;
+  width: 10vw;
+  position: absolute;
+  top:115vh;
+  left:7vw;
+  animation: myAnim 10s linear 0s infinite normal forwards;
+}
+
+#drone-mid-right{
+  height: 10vh;
+  width: 10vw;
+  position: absolute;
+  top:145vh;
+  right: 7vw;
+  animation: myAnim 10s linear 0s infinite normal forwards;
+
+}
+
+#drone-bottom-left{
+  height: 10vh;
+  width: 10vw;
+  position: absolute;
+  top:180vh;
+  left:7vw;
+  animation: myAnim 10s linear 0s infinite normal forwards;
+
+}
+
+/* Skal der ændres i rytme eller andet eller er det for meget ? */
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+}
+
+/*-- DRONER -- SlUT ---------------------------------------------------------------*/
