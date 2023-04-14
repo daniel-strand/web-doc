@@ -131,7 +131,31 @@ p {
 
 #sbhl-gris {
   position: relative;
-  width: 50%;
-  margin-left: 115%;
+  width: 45%;
+  margin-left: 100%;
+  margin-top: -9%;
+}
+
+#sbhl-ko {
+  position: relative;
+  width: 60%;
+  margin-left: 123%;
+  margin-top: -40%;
+}
+
+#sbhl-høne {
+  position: relative;
+  width: 15%;
+  margin-left: 90%;
+  margin-top: -12%;
+}
+
+/*OPSTART SOM LANDMAND (OSS)*/
+#oss-s {
+  position: relative;
   margin-top: -10%;
+}
+
+#oss-tb {
+  max-width: 965px;
 }
