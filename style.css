@@ -58,9 +58,28 @@ p {
 
 /* Infoside */
 
-#brun img {
-  margin-top: -300px;
+#roots-left{
+width: 50%;
+position: relative;
 }
+#roots-right{
+width: 50%;
+position: relative;
+}
+
+#læsmere-h2{
+  margin-top: -1000px;
+  z-index: 1;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+#læsmere-p{
+  position: relative;
+  max-width: 1000px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 
 /* Tekst boks template */
 
@@ -199,3 +218,28 @@ p {
 #vindmøller {
   margin-left: 400px;
 }
+
+
+/* Infoside */
+
+#roots-left{
+  width: 50%;
+  position: relative;
+  }
+  #roots-right{
+  width: 50%;
+  position: relative;
+  }
+  
+  #læsmere-h2{
+    margin-top: -1000px;
+    z-index: 1;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  #læsmere-p{
+    position: relative;
+    max-width: 1000px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
