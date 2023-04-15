@@ -48,47 +48,7 @@ p {
 XXX {
   background-image: linear-gradient(to bottom, #E2F0FF, #A5E1A0);
 }
-.overskrift-float {
-  background-color: #f4ecc2;
-  border-radius: 15px;
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-bottom: -45px;
 
-  padding: 10px 40px 20px;
-
-  height: 60px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-
-  position: relative;
-}
-
-.overskrift-float h2 {
-  padding-top: 20px;
-}
-
-.text-box {
-  background-color: #f8f8f8;
-  border-radius: 30px;
-  padding: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  /*Individuel fra sektion til sektion*/
-  max-width: 650px;
-}
-
-.text-box p {
-  margin-bottom: 40px;
-  line-height: 25px;
-}
-
-.space-top {
-  margin-top: 50px;
-}
 
 
 /* -- DRØMMEN OM AT VÆRE LANDMAND---START------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -96,7 +56,7 @@ XXX {
 
 /*-- SKYER -- START ---------------------------------------------------------------*/
 
-/* Hvad F sker der for position top */
+/* Hvad F sker der for position top og z-indkezzzz??*/
 #drømmen #sky-top-left{ 
   height: 40vh;
   width: 40vw;
@@ -178,7 +138,6 @@ to  {left:100%;}
   top:180vh;
   left:7vw;
   animation: myAnim 10s linear 0s infinite normal forwards;
-
 }
 
 /* Skal der ændres i rytme eller andet eller er det for meget ? */
@@ -212,3 +171,44 @@ to  {left:100%;}
 }
 
 /*-- DRONER -- SlUT ---------------------------------------------------------------*/
+
+
+/*-- TEKSTBOKS -- START ---------------------------------------------------------------*/
+.overskrift-float {
+  background-color: #f4ecc2;
+  border-radius: 15px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: -45px;
+
+  padding: 10px 40px 20px;
+
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  position: relative;
+}
+
+.overskrift-float h2 {
+  padding-top: 20px;
+}
+
+#drømmen-content{ 
+  display: flex;
+  /* Ændre farve til f8f8f8 */
+  background-color:#A5E1A0;
+  height: 46vh; 
+  width: 60vw;
+  border-radius: 30px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+#drømmen-content img{
+  border-radius: 30px;
+  margin-left: 20px;
+}  
