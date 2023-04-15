@@ -56,31 +56,6 @@ p {
   background-color: #9d8d4c;
 }
 
-/* Infoside */
-
-#roots-left{
-width: 50%;
-position: relative;
-}
-#roots-right{
-width: 50%;
-position: relative;
-}
-
-#læsmere-h2{
-  margin-top: -1000px;
-  z-index: 1;
-  margin-left: 25%;
-  margin-right: 25%;
-}
-#læsmere-p{
-  position: relative;
-  max-width: 1000px;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-
 /* Tekst boks template */
 
 .overskrift-float {
@@ -220,6 +195,82 @@ position: relative;
 }
 
 
+
+
+/* Fremtidens Landbrug */
+
+#block{
+  display: block;
+}
+.flex{
+  display: flex;
+  margin-left: 100px;
+}
+
+#droner{
+  width: 30%;
+  padding: 100px;
+}
+
+#drone-left{
+  width: 40%;
+  padding: 40px;
+  margin-left: 200px;
+}
+#drone-right{
+  width: 30%;
+  padding: 40px;
+
+}
+#drone-left, #drone-right{
+  animation: myAnim 6s ease 0s infinite normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+}
+
+#solceller{
+  width: 15%;
+  margin-left: 300px;
+}
+#biogasanlæg{
+  width: 25%;
+  margin-left: 500px;
+}
+
+#fremtiden-h2{
+  margin-top: 70px;
+}
+#fremtiden-p{
+  margin-left: 2.5%;
+  max-width: 800px;
+}
+
+
 /* Infoside */
 
 #roots-left{
@@ -232,7 +283,7 @@ position: relative;
   }
   
   #læsmere-h2{
-    margin-top: -1000px;
+    margin-top: -950px;
     z-index: 1;
     margin-left: 25%;
     margin-right: 25%;
