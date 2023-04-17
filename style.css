@@ -311,38 +311,28 @@ margin-left: 40%;
   width: 20vw;
   top: 20vh;
   transform: rotate(41deg);
-  animation: tractor-moving-1 40s linear 0s infinite normal forwards;
+  animation: tractor-moving-1 50s linear 0s infinite normal forwards;
 }
 #hverdag #traktor-2{ 
   position: absolute;
   width: 20vw;
   top: 20vh;
   transform: rotate(41deg);
-  animation: tractor-moving-2 40s linear 0s infinite normal forwards;
+  animation: tractor-moving-2 30s linear 0s infinite normal forwards;
 }
 @keyframes tractor-moving-1 {
   0%{
     top: 20vh;
     left: 0vw;
   }
-  20%{
-    top: 40vh;
-    left: 10vw;
-  }
-  40%{
-    top: 60vh;
-    left: 20vw;
-  }
-  60%{
-    top: 80vh;
+
+  50%{
+    top:70vh;
     left: 30vw;
-  }
-  80%{
-    top: 100vh;
-    left: 40vw;
-  }
+  } 
+
   100%{
-    top: 110vh;
+    top: 100vh;
     left: 50vw;
   } 
 }
@@ -353,11 +343,11 @@ margin-left: 40%;
     left: 0vw;
   }
   50%{
-    top: 75vh;
+    top: 60vh;
     left: 10vw;
   }
   100%{
-    top: 100vh;
+    top: 70vh;
     left: 20vw;
   } 
 }
