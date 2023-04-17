@@ -52,7 +52,9 @@ XXX {
 
 
 /* -- DRØMMEN OM AT VÆRE LANDMAND---START------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
-#drømmen{background-color: #E2F0FF;}
+#drømmen{
+  background-color: #E2F0FF;
+}
 
 /*-- SKYER -- START ---------------------------------------------------------------*/
 
@@ -118,7 +120,7 @@ to  {left:100%;}
   position: absolute;
   top:115vh;
   left:7vw;
-  animation: myAnim 10s linear 0s infinite normal forwards;
+  animation: drone-toggle 10s linear 0s infinite normal forwards;
 }
 
 #drone-mid-right{
@@ -127,7 +129,7 @@ to  {left:100%;}
   position: absolute;
   top:145vh;
   right: 7vw;
-  animation: myAnim 10s linear 0s infinite normal forwards;
+  animation: drone-toggle 10s linear 0s infinite normal forwards;
 
 }
 
@@ -137,12 +139,12 @@ to  {left:100%;}
   position: absolute;
   top:180vh;
   left:7vw;
-  animation: myAnim 10s linear 0s infinite normal forwards;
+  animation: drone-toggle 10s linear 0s infinite normal forwards;
 }
 
 /* Skal der ændres i rytme eller andet eller er det for meget ? */
 
-@keyframes myAnim {
+@keyframes drone-toggle {
 	0%,
 	100% {
 		transform: translateX(0%);
@@ -197,14 +199,33 @@ to  {left:100%;}
   padding-top: 20px;
 }
 
-#drømmen-content{ 
+.text-box {
+  background-color: #f8f8f8;
+  border-radius: 30px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  /*Individuel fra sektion til sektion*/
+  max-width: 650px;
+}
+
+.text-box p {
+  margin-bottom: 40px;
+  line-height: 25px;
+}
+
+.space-top {
+  margin-top: 50px;
+}
+
+  #drømmen-content{ 
   display: flex;
-  /* Ændre farve til f8f8f8 */
-  background-color:#A5E1A0;
+  background-color: #f8f8f8;
   height: 46vh; 
   width: 60vw;
   border-radius: 30px;
-  padding: 20px;
+  padding: 60px 20px 20px 20px;
   justify-content: space-between;
 }
 
@@ -212,3 +233,91 @@ to  {left:100%;}
   border-radius: 30px;
   margin-left: 20px;
 }  
+
+/* -- DRØMMEN OM AT VÆRE LANDMAND---SLUT------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* -- HVERDAGEN SOM LANDMAND--START------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+#hverdag{ 
+  background-color: #A5E1A0;
+  background-image: url("img/mark.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+#hverdag-content{ 
+margin-left: 40%;
+}
+#hverdag #traktor-1{ 
+  position: absolute;
+  width: 20vw;
+  top: 20vh;
+  transform: rotate(41deg);
+  animation: tractor-moving-1 40s linear 0s infinite normal forwards;
+}
+#hverdag #traktor-2{ 
+  position: absolute;
+  width: 20vw;
+  top: 20vh;
+  transform: rotate(41deg);
+  animation: tractor-moving-2 40s linear 0s infinite normal forwards;
+}
+@keyframes tractor-moving-1 {
+  0%{
+    top: 20vh;
+    left: 0vw;
+  }
+  20%{
+    top: 40vh;
+    left: 10vw;
+  }
+  40%{
+    top: 60vh;
+    left: 20vw;
+  }
+  60%{
+    top: 80vh;
+    left: 30vw;
+  }
+  80%{
+    top: 100vh;
+    left: 40vw;
+  }
+  100%{
+    top: 110vh;
+    left: 50vw;
+  } 
+}
+
+@keyframes tractor-moving-2 {
+  0%{
+    top: 50vh;
+    left: 0vw;
+  }
+  50%{
+    top: 75vh;
+    left: 10vw;
+  }
+  100%{
+    top: 100vh;
+    left: 20vw;
+  } 
+}
+
+/*skyer løsning  @keyframes{
+  0%{
+    background-position: 0 0;
+  }
+  20%{
+    background-position: 20px 20px;
+  }
+  40%{
+    background-position: 40px 40px;
+  }
+  60%{
+    background-position: 60px 60px;
+  }
+  80%{
+    background-position: 80px 80px;
+  }
+  100%{
+    /* background-position: 100px 100px;
+  } */
