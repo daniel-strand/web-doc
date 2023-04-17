@@ -1,20 +1,23 @@
-/* Kode til scrolling */
+/*Kode til scrolling*/
 html,
 body {
   margin: 0;
   scroll-behavior: smooth;
 }
 
-.vertikal {
+
+.vertikal{
   height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sektion {
   overflow-x: hidden;
   display: flex;
   position: sticky;
-  top: 0;
+  top:0;
 }
 
 section {
@@ -24,6 +27,8 @@ section {
   justify-content: center;
   align-items: center;
 }
+/*Kode til scrolling*/
+
 
 /* Fonts */
 
@@ -39,192 +44,104 @@ p {
   font-size: 15pt;
 }
 
-/* Farve på sektioner */
-#blaa {
-  background-color: #e2f0ff;
-}
-#blaa-groen {
-  background-image: linear-gradient(to bottom, #e2f0ff, #a5e1a0);
-}
-#groen {
-  background-color: #a5e1a0;
-}
-#groen-brun {
-  background-image: linear-gradient(to bottom, #a5e1a0, #9d8d4c);
-}
-#brun {
-  background-color: #9d8d4c;
-}
-
-/* Tekst boks template */
-
-.overskrift-float {
-  background-color: #f4ecc2;
-  border-radius: 15px;
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-bottom: -45px;
-
-  padding: 10px 40px 20px;
-
-  height: 60px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-
-  position: relative;
-}
-
-.overskrift-float h2 {
-  padding-top: 20px;
-}
-
-.text-box {
-  background-color: #f8f8f8;
-  border-radius: 30px;
-  padding: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-
-  /*Individuel fra sektion til sektion*/
-  max-width: 650px;
-}
-
-.text-box p {
-  margin-bottom: 40px;
-  line-height: 25px;
-}
-
-.space-top {
-  margin-top: 50px;
-}
-
-/*SÅDAN BLEV HAN LANDMAND (SBHL)*/
-#sbhl-s {
-  justify-content: left;
-
-  margin-left: 50px;
-}
-
-#sbhl-of {
-  margin-left: 120px;
-  margin-right: 120px;
-}
-
-#sbhl-tb {
-  max-width: 865px;
-}
-
-#sbhl-halmballer {
-  position: relative;
-  width: 60%;
-  margin-left: 115%;
-  margin-top: -55%;
-}
-
-#sbhl-gris {
-  position: relative;
-  width: 45%;
-  margin-left: 100%;
-  margin-top: -9%;
-}
-
-#sbhl-ko {
-  position: relative;
-  width: 60%;
-  margin-left: 123%;
-  margin-top: -40%;
-}
-
-#sbhl-høne {
-  position: relative;
-  width: 15%;
-  margin-left: 90%;
-  margin-top: -12%;
-}
-
-/*OPSTART SOM LANDMAND (OSS)*/
-#oss-tb {
-  max-width: 965px;
-}
-
-#oss-halmballer-right {
-  position: relative;
-  width: 40%;
-  margin-left: 95%;
-  margin-top: -15%;
-
-  transform: scaleX(-1);
-}
-
-#oss-traktor {
-  position: relative;
-  width: 60%;
-  margin-left: 70%;
-  margin-top: -33%;
-
-  transform: scaleX(-1);
-}
-
-#oss-halmballer-left {
-  position: relative;
-  width: 20%;
-
-  margin-top: -19%;
-}
-
-#oss-ko {
-  position: relative;
-  width: 28%;
-  margin-left: 15%;
-  margin-top: -19%;
-}
-
-/* Fakta om bæredygtig landbrug */
-#vindmølle-left {
-  width: 40%;
-}
-#vindmølle-right {
-  width: 48%;
-}
-
-#vindmøller {
-  margin-left: 400px;
+/* Den første farve er den farver sektionens top har og den sidste er sektionens bund */
+XXX {
+  background-image: linear-gradient(to bottom, #E2F0FF, #A5E1A0);
 }
 
 
 
+/* -- DRØMMEN OM AT VÆRE LANDMAND---START------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+#drømmen{background-color: #E2F0FF;}
 
-/* Fremtidens Landbrug */
+/*-- SKYER -- START ---------------------------------------------------------------*/
 
-#block{
-  display: block;
-}
-.flex{
-  display: flex;
-  margin-left: 100px;
-}
-
-#droner{
-  width: 30%;
-  padding: 100px;
+/* Hvad F sker der for position top og z-indkezzzz??*/
+#drømmen #sky-top-left{ 
+  height: 40vh;
+  width: 40vw;
+  position:absolute;
+  top:100vh;
+  animation-name: slide-left-to-right;
+  animation-duration: 180s;
+  animation-iteration-count: infinite;
 }
 
-#drone-left{
-  width: 40%;
-  padding: 40px;
-  margin-left: 200px;
+#drømmen #sky-top-right{
+  height: 30vh;
+  width: 30vw;
+  position:absolute;
+  top:110vh;
+  animation-name: slide-right-to-left;
+  animation-duration: 185s;
+  animation-iteration-count: infinite;
 }
-#drone-right{
-  width: 30%;
-  padding: 40px;
+
+#drømmen #sky-bottom-left{
+  height: 30vh;
+  width: 30vw;
+  position:absolute;
+  top:150vh;
+  animation-name: slide-left-to-right;
+  animation-duration: 185s;
+  animation-iteration-count: infinite;
+}
+
+
+#drømmen #sky-bottom-right{
+  height: 40vh;
+  width: 40vw;
+  position:absolute;
+  top:160vh;
+  animation-name: slide-right-to-left;
+  animation-duration: 180s;
+  animation-iteration-count: infinite;
+}
+
+/* Keyframes-SKYER */
+@keyframes slide-left-to-right {
+from {left:0%;}
+to  {left:100%;}
+}
+
+@keyframes slide-right-to-left{
+  from {right:0%;}
+  to  {right:100%;}
+}
+/*-- SKYER -- SLUT ---------------------------------------------------------------*/
+
+/*-- DRONER -- START ---------------------------------------------------------------*/
+
+#drone-top-left{
+  height: 10vh;
+  width: 10vw;
+  position: absolute;
+  top:115vh;
+  left:7vw;
+  animation: myAnim 10s linear 0s infinite normal forwards;
+}
+
+#drone-mid-right{
+  height: 10vh;
+  width: 10vw;
+  position: absolute;
+  top:145vh;
+  right: 7vw;
+  animation: myAnim 10s linear 0s infinite normal forwards;
 
 }
-#drone-left, #drone-right{
-  animation: myAnim 6s ease 0s infinite normal forwards;
+
+#drone-bottom-left{
+  height: 10vh;
+  width: 10vw;
+  position: absolute;
+  top:180vh;
+  left:7vw;
+  animation: myAnim 10s linear 0s infinite normal forwards;
 }
+
+/* Skal der ændres i rytme eller andet eller er det for meget ? */
+
 @keyframes myAnim {
 	0%,
 	100% {
@@ -253,44 +170,45 @@ p {
 	}
 }
 
-#solceller{
-  width: 15%;
-  margin-left: 300px;
-}
-#biogasanlæg{
-  width: 25%;
-  margin-left: 500px;
-}
-
-#fremtiden-h2{
-  margin-top: 70px;
-}
-#fremtiden-p{
-  margin-left: 2.5%;
-  max-width: 800px;
-}
+/*-- DRONER -- SlUT ---------------------------------------------------------------*/
 
 
-/* Infoside */
+/*-- TEKSTBOKS -- START ---------------------------------------------------------------*/
+.overskrift-float {
+  background-color: #f4ecc2;
+  border-radius: 15px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: -45px;
 
-#roots-left{
-  width: 50%;
+  padding: 10px 40px 20px;
+
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
   position: relative;
-  }
-  #roots-right{
-  width: 50%;
-  position: relative;
-  }
-  
-  #læsmere-h2{
-    margin-top: -950px;
-    z-index: 1;
-    margin-left: 25%;
-    margin-right: 25%;
-  }
-  #læsmere-p{
-    position: relative;
-    max-width: 1000px;
-    margin-left: 20%;
-    margin-right: 20%;
-  }
+}
+
+.overskrift-float h2 {
+  padding-top: 20px;
+}
+
+#drømmen-content{ 
+  display: flex;
+  /* Ændre farve til f8f8f8 */
+  background-color:#A5E1A0;
+  height: 46vh; 
+  width: 60vw;
+  border-radius: 30px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+#drømmen-content img{
+  border-radius: 30px;
+  margin-left: 20px;
+}  
