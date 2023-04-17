@@ -54,6 +54,7 @@ XXX {
 /* -- DRØMMEN OM AT VÆRE LANDMAND---START------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 #drømmen{
   background-color: #E2F0FF;
+  z-index: -1;
 }
 
 /*-- SKYER -- START ---------------------------------------------------------------*/
@@ -67,6 +68,8 @@ XXX {
   animation-name: slide-left-to-right;
   animation-duration: 180s;
   animation-iteration-count: infinite;
+  z-index: 0;
+  opacity: 60%;
 }
 
 #drømmen #sky-top-right{
@@ -77,6 +80,8 @@ XXX {
   animation-name: slide-right-to-left;
   animation-duration: 185s;
   animation-iteration-count: infinite;
+  z-index: 0;
+  opacity: 60%;
 }
 
 #drømmen #sky-bottom-left{
@@ -87,6 +92,8 @@ XXX {
   animation-name: slide-left-to-right;
   animation-duration: 185s;
   animation-iteration-count: infinite;
+  z-index: 0;
+  opacity: 60%;
 }
 
 
@@ -98,6 +105,8 @@ XXX {
   animation-name: slide-right-to-left;
   animation-duration: 180s;
   animation-iteration-count: infinite;
+  z-index: 0;
+  opacity: 60%;
 }
 
 /* Keyframes-SKYER */
@@ -191,8 +200,8 @@ to  {left:100%;}
   align-items: center;
   justify-content: center;
   text-align: center;
-
   position: relative;
+  z-index: 3;
 }
 
 .overskrift-float h2 {
@@ -227,6 +236,8 @@ to  {left:100%;}
   border-radius: 30px;
   padding: 60px 20px 20px 20px;
   justify-content: space-between;
+  position:relative;
+  z-index: 2;
 }
 
 #drømmen-content img{
