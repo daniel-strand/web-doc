@@ -33,6 +33,16 @@ h2 {
   text-transform: uppercase;
 }
 
+h1{
+  font-family: "cc-regeneration-variable", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 40pt;
+}
+
 p {
   font-family: "mr-eaves-xl-modern", sans-serif;
   font-weight: 400;
@@ -100,6 +110,24 @@ p {
 .space-top {
   margin-top: 50px;
 }
+
+/* -- Forside---START------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+#wave{
+  position: absolute;
+  bottom: -19px;
+}
+
+.next-down{
+  position: absolute;
+  bottom: 10px;
+  left: 48.2%;
+
+
+}
+
+
+
+
 
 
 /* -- DRØMMEN OM AT VÆRE LANDMAND---START------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -612,10 +640,12 @@ margin-left: 40%;
 #solceller{
   width: 25%;
   margin-left: 300px;
+  margin-top: -100px;
 }
 #biogasanlæg{
   width: 25%;
-  margin-left: 500px;
+  margin-left: 300px;
+  margin-top: -100px;
 }
 
 #fremtiden-h2{
@@ -638,7 +668,7 @@ margin-left: 40%;
   }
   
   #læsmere-h2{
-    margin-top: -950px;
+    margin-top:-800px;
     z-index: 1;
     margin-left: 25%;
     margin-right: 25%;
@@ -649,6 +679,12 @@ margin-left: 40%;
     margin-left: 20%;
     margin-right: 20%;
   }
+
+  #læsmere-p p{
+    font-size: 10pt;
+    margin: 30px;
+  }
+
 
 
 
