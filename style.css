@@ -311,7 +311,7 @@ margin-left: 40%;
   width: 20vw;
   top: 20vh;
   transform: rotate(41deg);
-  animation: tractor-moving-1 50s linear 0s infinite normal forwards;
+  animation: tractor-moving-1 30s linear 0s infinite normal forwards;
 }
 #hverdag #traktor-2{ 
   position: absolute;
@@ -327,13 +327,13 @@ margin-left: 40%;
   }
 
   50%{
-    top:70vh;
-    left: 30vw;
+    top:50vh;
+    left: 20vw;
   } 
 
   100%{
-    top: 100vh;
-    left: 50vw;
+    top: 60vh;
+    left: 30vw;
   } 
 }
 
