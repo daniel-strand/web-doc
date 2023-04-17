@@ -33,6 +33,16 @@ h2 {
   text-transform: uppercase;
 }
 
+h1{
+  font-family: "cc-regeneration-variable", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 40pt;
+}
+
 p {
   font-family: "mr-eaves-xl-modern", sans-serif;
   font-weight: 400;
@@ -100,6 +110,24 @@ p {
 .space-top {
   margin-top: 50px;
 }
+
+/* -- Forside---START------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+#wave{
+  position: absolute;
+  bottom: -19px;
+}
+
+.next-down{
+  position: absolute;
+  bottom: 10px;
+  left: 48.2%;
+
+
+}
+
+
+
+
 
 
 /* -- DRØMMEN OM AT VÆRE LANDMAND---START------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
