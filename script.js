@@ -48,3 +48,17 @@
     }
   }
 })();
+
+
+
+
+
+
+document.getElementById('burgerMenu').addEventListener('click', function() {
+  var menu = document.getElementById('menu');
+  if (menu.style.right === '-250px') {
+    menu.style.right = '0';
+  } else {
+    menu.style.right = '-250px';
+  }
+});

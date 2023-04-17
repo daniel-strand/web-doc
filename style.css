@@ -818,3 +818,52 @@ h2{
   } 
 
 
+
+
+
+  #carrot-menu{
+    width: 40px;
+    position: fixed;
+    right: 30px;
+    z-index: 999;
+  }
+
+
+
+.burger-menu {
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+
+
+/* Style for menu that slides out from the right */
+#menu {
+  background-color: #ffffff68;
+  position: fixed;
+  top: 0;
+  right: -290px;
+  height: 100vh;
+  width: 250px;
+
+  transition: right 0.3s ease-in-out;
+  z-index: 10;
+
+  backdrop-filter: blur(10px); 
+}
+
+#menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu li {
+
+  padding: 20px;
+}
+
+#menu a {
+  text-decoration: none;
+  color:#0f0f0f;
+}
