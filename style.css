@@ -5,7 +5,6 @@ body {
   scroll-behavior: smooth;
 }
 
-
 .vertikal{
   height: 100vh;
   display: flex;
@@ -31,11 +30,22 @@ section {
 
 
 /* Fonts */
+h2{
+font-family: "cc-regeneration-variable", sans-serif;
+font-weight: 400;
+text-transform: uppercase;
+}
 
-h2 {
-  font-family: "cc-regeneration-variable", sans-serif;
+h3{
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 700;
+  font-size: 10pt;
+  }
+
+h4{
+  font-family: "mr-eaves-xl-modern", sans-serif;
   font-weight: 400;
-  text-transform: uppercase;
+  font-size: 10pt;
 }
 
 p {
@@ -44,6 +54,24 @@ p {
   font-size: 15pt;
 }
 
+li{
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-size: 10pt;
+}
+
+a {
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-size: 10pt;
+}
+
+
+/* Farve på sektioner */
+#blaa{
+  background-color: #E2F0FF;
+}
+#blaa-groen{
 /* Den første farve er den farver sektionens top har og den sidste er sektionens bund */
 XXX {
   background-image: linear-gradient(to bottom, #E2F0FF, #A5E1A0);
@@ -226,6 +254,62 @@ to  {left:100%;}
 
 .space-top {
   margin-top: 50px;
+}
+
+
+/* ---------SOCIAL----------- */
+
+#social{
+  display: flex;
+}
+
+#social p {
+  font-size: 10pt;
+  margin-bottom: 0px;
+}
+
+h3{
+  margin-bottom: 0px;
+}
+
+#social img {
+  margin-bottom: -250px;
+}
+
+.margin-top0 {
+  margin-top: 0px;
+}
+
+ul li {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+
+/* ---------LINKS TIL SKOLER----------- */
+.text-box ul li a {
+  padding: 15px;
+  text-decoration: none;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-size: 15pt;
+  color: black;
+}
+
+.text-box ul li a:hover{
+  text-decoration: underline;
+}
+
+#list-links ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  line-height: 30px;
+}
+
+#dk-kort{
+  display: flex;
+  justify-content: space-around;
 }
 
   #drømmen-content{ 
