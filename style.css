@@ -1,4 +1,4 @@
-/* Kode til scrolling */
+/*Kode til scrolling*/
 html,
 body {
   margin: 0;
@@ -8,6 +8,8 @@ body {
 .vertikal{
   height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sektion {
@@ -24,6 +26,8 @@ section {
   justify-content: center;
   align-items: center;
 }
+/*Kode til scrolling*/
+
 
 /* Fonts */
 h2{
@@ -44,7 +48,7 @@ h4{
   font-size: 10pt;
 }
 
-p{
+p {
   font-family: "mr-eaves-xl-modern", sans-serif;
   font-weight: 400;
   font-size: 15pt;
@@ -68,30 +72,140 @@ a {
   background-color: #E2F0FF;
 }
 #blaa-groen{
+/* Den første farve er den farver sektionens top har og den sidste er sektionens bund */
+XXX {
   background-image: linear-gradient(to bottom, #E2F0FF, #A5E1A0);
 }
-#groen{
-  background-color: #A5E1A0;
-}
-#groen-brun{
-  background-image: linear-gradient(to bottom, #a5e1a0,#9D8D4C);
-}
-#brun{
-  background-color: #9D8D4C;
+
+
+
+/* -- DRØMMEN OM AT VÆRE LANDMAND---START------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+#drømmen{
+  background-color: #E2F0FF;
 }
 
+/*-- SKYER -- START ---------------------------------------------------------------*/
 
-/* Infoside */
+/* Hvad F sker der for position top og z-indkezzzz??*/
+#drømmen #sky-top-left{ 
+  height: 40vh;
+  width: 40vw;
+  position:absolute;
+  top:100vh;
+  animation-name: slide-left-to-right;
+  animation-duration: 180s;
+  animation-iteration-count: infinite;
+}
 
-#brun img{
-  margin-top: -300px;
+#drømmen #sky-top-right{
+  height: 30vh;
+  width: 30vw;
+  position:absolute;
+  top:110vh;
+  animation-name: slide-right-to-left;
+  animation-duration: 185s;
+  animation-iteration-count: infinite;
+}
+
+#drømmen #sky-bottom-left{
+  height: 30vh;
+  width: 30vw;
+  position:absolute;
+  top:150vh;
+  animation-name: slide-left-to-right;
+  animation-duration: 185s;
+  animation-iteration-count: infinite;
 }
 
 
+#drømmen #sky-bottom-right{
+  height: 40vh;
+  width: 40vw;
+  position:absolute;
+  top:160vh;
+  animation-name: slide-right-to-left;
+  animation-duration: 180s;
+  animation-iteration-count: infinite;
+}
 
-/* Boks med text */
-.overskrift-float{
-  background-color: #F4ECC2;
+/* Keyframes-SKYER */
+@keyframes slide-left-to-right {
+from {left:0%;}
+to  {left:100%;}
+}
+
+@keyframes slide-right-to-left{
+  from {right:0%;}
+  to  {right:100%;}
+}
+/*-- SKYER -- SLUT ---------------------------------------------------------------*/
+
+/*-- DRONER -- START ---------------------------------------------------------------*/
+
+#drone-top-left{
+  height: 10vh;
+  width: 10vw;
+  position: absolute;
+  top:115vh;
+  left:7vw;
+  animation: drone-toggle 10s linear 0s infinite normal forwards;
+}
+
+#drone-mid-right{
+  height: 10vh;
+  width: 10vw;
+  position: absolute;
+  top:145vh;
+  right: 7vw;
+  animation: drone-toggle 10s linear 0s infinite normal forwards;
+
+}
+
+#drone-bottom-left{
+  height: 10vh;
+  width: 10vw;
+  position: absolute;
+  top:180vh;
+  left:7vw;
+  animation: drone-toggle 10s linear 0s infinite normal forwards;
+}
+
+/* Skal der ændres i rytme eller andet eller er det for meget ? */
+
+@keyframes drone-toggle {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+}
+
+/*-- DRONER -- SlUT ---------------------------------------------------------------*/
+
+
+/*-- TEKSTBOKS -- START ---------------------------------------------------------------*/
+.overskrift-float {
+  background-color: #f4ecc2;
   border-radius: 15px;
   margin-left: 60px;
   margin-right: 60px;
@@ -109,12 +223,11 @@ a {
   position: relative;
 }
 
-.overskrift-float h2{
+.overskrift-float h2 {
   padding-top: 20px;
 }
 
-
-.text-box{
+.text-box {
   background-color: #f8f8f8;
   border-radius: 30px;
   padding: 20px;
@@ -125,13 +238,12 @@ a {
   max-width: 650px;
 }
 
-
-.text-box p{
+.text-box p {
   margin-bottom: 40px;
   line-height: 25px;
 }
 
-.space-top{
+.space-top {
   margin-top: 50px;
 }
 
@@ -191,3 +303,403 @@ ul li {
   justify-content: space-around;
 }
 
+  #drømmen-content{ 
+  display: flex;
+  background-color: #f8f8f8;
+  height: 46vh; 
+  width: 60vw;
+  border-radius: 30px;
+  padding: 60px 20px 20px 20px;
+  justify-content: space-between;
+}
+
+#drømmen-content img{
+  border-radius: 30px;
+  margin-left: 20px;
+}  
+
+/* -- DRØMMEN OM AT VÆRE LANDMAND---SLUT------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* -- HVERDAGEN SOM LANDMAND--START------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+#hverdag{ 
+  background-color: #A5E1A0;
+  background-image: url("img/mark.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+#hverdag-content{ 
+margin-left: 40%;
+}
+#hverdag #traktor-1{ 
+  position: absolute;
+  width: 20vw;
+  top: 20vh;
+  transform: rotate(41deg);
+  animation: tractor-moving-1 40s linear 0s infinite normal forwards;
+}
+#hverdag #traktor-2{ 
+  position: absolute;
+  width: 20vw;
+  top: 20vh;
+  transform: rotate(41deg);
+  animation: tractor-moving-2 40s linear 0s infinite normal forwards;
+}
+@keyframes tractor-moving-1 {
+  0%{
+    top: 20vh;
+    left: 0vw;
+  }
+  20%{
+    top: 40vh;
+    left: 10vw;
+  }
+  40%{
+    top: 60vh;
+    left: 20vw;
+  }
+  60%{
+    top: 80vh;
+    left: 30vw;
+  }
+  80%{
+    top: 100vh;
+    left: 40vw;
+  }
+  100%{
+    top: 110vh;
+    left: 50vw;
+  } 
+}
+
+@keyframes tractor-moving-2 {
+  0%{
+    top: 50vh;
+    left: 0vw;
+  }
+  50%{
+    top: 75vh;
+    left: 10vw;
+  }
+  100%{
+    top: 100vh;
+    left: 20vw;
+  } 
+}
+
+/*skyer løsning  @keyframes{
+  0%{
+    background-position: 0 0;
+  }
+  20%{
+    background-position: 20px 20px;
+  }
+  40%{
+    background-position: 40px 40px;
+  }
+  60%{
+    background-position: 60px 60px;
+  }
+  80%{
+    background-position: 80px 80px;
+  }
+  100%{
+    /* background-position: 100px 100px;
+  } */
+
+
+
+
+/* Kode til scrolling */
+html,
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.vertikal {
+  height: 100vh;
+  display: flex;
+}
+
+.sektion {
+  overflow-x: hidden;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+section {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Fonts */
+
+h2 {
+  font-family: "cc-regeneration-variable", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 400;
+  font-size: 15pt;
+}
+
+/* Farve på sektioner */
+#blaa {
+  background-color: #e2f0ff;
+}
+#blaa-groen {
+  background-image: linear-gradient(to bottom, #e2f0ff, #a5e1a0);
+}
+#groen {
+  background-color: #a5e1a0;
+}
+#groen-brun {
+  background-image: linear-gradient(to bottom, #a5e1a0, #9d8d4c);
+}
+#brun {
+  background-color: #9d8d4c;
+}
+
+/* Tekst boks template */
+
+.overskrift-float {
+  background-color: #f4ecc2;
+  border-radius: 15px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: -45px;
+
+  padding: 10px 40px 20px;
+
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  position: relative;
+}
+
+.overskrift-float h2 {
+  padding-top: 20px;
+}
+
+.text-box {
+  background-color: #f8f8f8;
+  border-radius: 30px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  /*Individuel fra sektion til sektion*/
+  max-width: 650px;
+}
+
+.text-box p {
+  margin-bottom: 40px;
+  line-height: 25px;
+}
+
+.space-top {
+  margin-top: 50px;
+}
+
+/*SÅDAN BLEV HAN LANDMAND (SBHL)*/
+#sbhl-s {
+  justify-content: left;
+
+  margin-left: 50px;
+}
+
+#sbhl-of {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+#sbhl-tb {
+  max-width: 865px;
+}
+
+#sbhl-halmballer {
+  position: relative;
+  width: 60%;
+  margin-left: 115%;
+  margin-top: -55%;
+}
+
+#sbhl-gris {
+  position: relative;
+  width: 45%;
+  margin-left: 100%;
+  margin-top: -9%;
+}
+
+#sbhl-ko {
+  position: relative;
+  width: 60%;
+  margin-left: 123%;
+  margin-top: -40%;
+}
+
+#sbhl-høne {
+  position: relative;
+  width: 15%;
+  margin-left: 90%;
+  margin-top: -12%;
+}
+
+/*OPSTART SOM LANDMAND (OSS)*/
+#oss-tb {
+  max-width: 965px;
+}
+
+#oss-halmballer-right {
+  position: relative;
+  width: 40%;
+  margin-left: 95%;
+  margin-top: -15%;
+
+  transform: scaleX(-1);
+}
+
+#oss-traktor {
+  position: relative;
+  width: 60%;
+  margin-left: 70%;
+  margin-top: -33%;
+
+  transform: scaleX(-1);
+}
+
+#oss-halmballer-left {
+  position: relative;
+  width: 20%;
+
+  margin-top: -19%;
+}
+
+#oss-ko {
+  position: relative;
+  width: 28%;
+  margin-left: 15%;
+  margin-top: -19%;
+}
+
+/* Fakta om bæredygtig landbrug */
+#vindmølle-left {
+  width: 40%;
+}
+#vindmølle-right {
+  width: 48%;
+}
+
+#vindmøller {
+  margin-left: 400px;
+}
+
+
+
+/* Fremtidens Landbrug */
+
+#block{
+  display: block;
+}
+.flex{
+  display: flex;
+  margin-left: 100px;
+}
+
+#droner{
+  width: 30%;
+  padding: 100px;
+}
+
+#drone-left{
+  width: 40%;
+  padding: 40px;
+  margin-left: 200px;
+}
+#drone-right{
+  width: 30%;
+  padding: 40px;
+
+}
+#drone-left, #drone-right{
+  animation: myAnim 6s ease 0s infinite normal forwards;
+}
+@keyframes myAnim {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+
+  15% {
+    transform: translateX(-30px) rotate(6deg);
+  }
+
+  30% {
+    transform: translateX(15px) rotate(-6deg);
+  }
+
+  45% {
+    transform: translateX(-15px) rotate(3.6deg);
+  }
+
+  60% {
+    transform: translateX(9px) rotate(-2.4deg);
+  }
+
+  75% {
+    transform: translateX(-6px) rotate(1.2deg);
+  }
+}
+
+#solceller{
+  width: 15%;
+  margin-left: 300px;
+}
+#biogasanlæg{
+  width: 25%;
+  margin-left: 500px;
+}
+
+#fremtiden-h2{
+  margin-top: 70px;
+}
+#fremtiden-p{
+  margin-left: 2.5%;
+  max-width: 800px;
+}
+
+/* Infoside */
+
+#roots-left{
+  width: 50%;
+  position: relative;
+  }
+  #roots-right{
+  width: 50%;
+  position: relative;
+  }
+  
+  #læsmere-h2{
+    margin-top: -950px;
+    z-index: 1;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  #læsmere-p{
+    position: relative;
+    max-width: 1000px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
