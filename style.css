@@ -56,7 +56,7 @@ p {
 #blaa-groen {
   background-image: linear-gradient(to bottom, #e2f0ff, #a5e1a0);
 }
-#groen {
+#groen, #groen1 {
   background-color: #a5e1a0;
 }
 #groen-brun {
