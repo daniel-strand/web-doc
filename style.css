@@ -124,7 +124,9 @@ p {
 }
 
 #LPvideo{
-  margin-top: -25px;
+  margin-top:-6px;
+  height: 100%;
+  width: 100%;
 }
 
 
@@ -495,6 +497,15 @@ margin-left: 40%;
   margin-left: 100px;
 }
 
+#text-area-fix{
+  margin-left: 50px;
+}
+
+#text-box-fix{
+  height: 690px;
+}
+
+
 
 /*Elev på arbejdspladsen*/
 
@@ -820,7 +831,7 @@ h2{
 
 
 
-
+/* BURGER-MENU start -----------------------------------------------------------------------------------*/
   #carrot-menu{
     width: 40px;
     position: fixed;
@@ -828,11 +839,19 @@ h2{
     z-index: 999;
   }
 
-
-
 .burger-menu {
   cursor: pointer;
   margin-right: 20px;
+}
+
+#menu li{
+  margin-top: 20px;
+}
+
+#menu li a{
+  font-family: "cc-regeneration-variable", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 
