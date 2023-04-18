@@ -14,41 +14,24 @@
 
 </head>
 
-<!-- Tekst boks template. Skal måske ændres lidt fra side til side, men her er the basics
-
-  <section>
-        <div class="text-area">
-          <div class="overskrift-float">
-            <h2>Overskrift</h2>
-          </div>
-          <div class="text-box">
-            <p class="space-top"> Her begynder teksten</p>
-            <p>Næste afsnit</p>
-            <p>Næste afsnit</p>
-            <p>Næste afsnit</p>
-            <p>Næste afsnit</p>
-          </div>
-        </div>
-      </section>
-
-
--->
 <body>
 
   <div class="burger-menu" id="burgerMenu">
-    <img id="carrot-menu" src="img/carrot_menu_3.svg" alt="">
+    <img id="carrot-menu" src="img/carrot_menu_3.svg" alt="Burger menu">
   </div>
   <nav id="menu">
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#">Forside</a></li>
+      <li><a href="#">Mød en landmand</a></li>
+      <li><a href="#">Hverdagen som landmand</a></li>
+      <li><a href="#">Livet som selvstændig</a></li>
+      <li><a href="#">Bæredygtigt landbrug</a></li>
+      <li><a href="#">Info</a></li>
     </ul>
   </nav>
 
   <div class="vertikal">
-    <iframe id=LPvideo width="100%" height="100%" src="https://www.youtube.com/embed/LfxnhyxQgdI?autoplay=1&mute=1&controls=0&amp;start=22" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <video id="LPvideo" src="img/idylvideo_kval_1.mp4" autoplay loop muted controls="false"></video>
     <svg id="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2f0ff" fill-opacity="1" d="M0,32L48,32C96,32,192,32,288,53.3C384,75,480,117,576,122.7C672,128,768,96,864,112C960,128,1056,192,1152,202.7C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     <h1>ØNSKER DU AT VÆRE LANDMAND ?</h1>
     <a href="#sektion1"><img class="next-down" src="img/arrowdown.svg" alt="Pil til næste side"></a>
@@ -267,8 +250,8 @@
           <p>Derudover møde vi hver 3. måned til sociale arrangementer, hvor vi bowler eller tager ud og spise. “ </p>
         </div>
 
-        <img id="korn-left" src="img/korn-left.svg" alt="">
-        <img id="korn-right" src="img/korn-right.svg" alt="">
+        <img id="korn-left" src="img/korn-left.svg" alt="Korn">
+        <img id="korn-right" src="img/korn-right.svg" alt="Korn">
         
 
       </section>
@@ -352,11 +335,11 @@
   <div class="horisontal">
     <div class="sektion" id="groen-brun">
       <section>
-        <div class="text-area">
+        <div class="text-area" id="text-area-fix">
           <div class="overskrift-float">
             <h2>Fakta om bæredygtigt landbrug</h2>
           </div>
-          <div class="text-box">
+          <div class="text-box" id="text-box-fix">
             <p class="space-top">Da landbruget er et meget stort erhverv, vil produktionen undgåeligt påvirke miljøet.</p>
             <p>Men der arbejdes i hele landbrugssektoren på at gøre landbruget meget bæredygtigt. F.eks. arbejder der i mejerisektoren med nye fodertyper- og sammensætninger og der optimeres på indsamling af mælk fra landmændene. </p>
             <p>Derudover er det også vigtigt for mange landmænd at genskabe biodiversiteten ved at omlægge områder til vådområder, skovrejsning og vilde naturområder hvor naturen kan få lov til at passe sig selv.</p>
