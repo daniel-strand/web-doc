@@ -832,6 +832,7 @@ h2{
     position: fixed;
     right: 30px;
     z-index: 999;
+    top: 20px;
   }
 
 .burger-menu {
