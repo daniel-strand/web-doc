@@ -56,7 +56,7 @@ p {
 #blaa-groen {
   background-image: linear-gradient(to bottom, #e2f0ff, #a5e1a0);
 }
-#groen {
+#groen, #groen1 {
   background-color: #a5e1a0;
 }
 #groen-brun {
@@ -577,7 +577,7 @@ margin-left: 40%;
 
 
 /* --SELVSTÆNDIG LANDMAND--------------------------------------------------- */
-#selvstændig-video iframe{ 
+#selvstændig-video video{ 
   border-radius: 15px;
 }
 
@@ -650,23 +650,18 @@ margin-left: 40%;
     transform: translateX(0%);
     transform-origin: 50% 50%;
   }
-
   15% {
     transform: translateX(-30px) rotate(6deg);
   }
-
   30% {
     transform: translateX(15px) rotate(-6deg);
   }
-
   45% {
     transform: translateX(-15px) rotate(3.6deg);
   }
-
   60% {
     transform: translateX(9px) rotate(-2.4deg);
   }
-
   75% {
     transform: translateX(-6px) rotate(1.2deg);
   }
